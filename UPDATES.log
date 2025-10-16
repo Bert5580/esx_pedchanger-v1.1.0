@@ -1,0 +1,15 @@
+esx_pedchanger v1.1.0 — 2025-10-16
+
+• Code cleanup and refactor (client + server)
+  - Added robust model existence checks and load timeout.
+  - Added brief invincibility window during swap (configurable).
+  - Reset clothing/components after swap to avoid mismatches.
+• Persistence and startup hardening
+  - Auto-create `player_peds` SQL table on MySQL ready.
+  - Safe ESX object acquisition (export + legacy event).
+• Permissions (optional)
+  - ESX group gating and ACE permission support.
+• Logging improvements
+  - Configurable info/debug logging.
+• Documentation
+  - Rewrote README with features, install, config, commands, and troubleshooting.
